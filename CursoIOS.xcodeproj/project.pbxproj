@@ -24,9 +24,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		B2794E472C9CD16300FBDE8E /* IMC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IMC.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B2794E572C9CD16700FBDE8E /* IMCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IMCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B2794E612C9CD16800FBDE8E /* IMCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IMCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2794E472C9CD16300FBDE8E /* CursoIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CursoIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2794E572C9CD16700FBDE8E /* CursoIOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CursoIOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2794E612C9CD16800FBDE8E /* CursoIOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CursoIOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -85,9 +85,9 @@
 		B2794E482C9CD16300FBDE8E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B2794E472C9CD16300FBDE8E /* IMC.app */,
-				B2794E572C9CD16700FBDE8E /* IMCTests.xctest */,
-				B2794E612C9CD16800FBDE8E /* IMCUITests.xctest */,
+				B2794E472C9CD16300FBDE8E /* CursoIOS.app */,
+				B2794E572C9CD16700FBDE8E /* CursoIOSTests.xctest */,
+				B2794E612C9CD16800FBDE8E /* CursoIOSUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,9 +95,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B2794E462C9CD16300FBDE8E /* IMC */ = {
+		B2794E462C9CD16300FBDE8E /* CursoIOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B2794E6B2C9CD16800FBDE8E /* Build configuration list for PBXNativeTarget "IMC" */;
+			buildConfigurationList = B2794E6B2C9CD16800FBDE8E /* Build configuration list for PBXNativeTarget "CursoIOS" */;
 			buildPhases = (
 				B2794E432C9CD16300FBDE8E /* Sources */,
 				B2794E442C9CD16300FBDE8E /* Frameworks */,
@@ -110,16 +110,16 @@
 			fileSystemSynchronizedGroups = (
 				B2794E492C9CD16300FBDE8E /* IMC */,
 			);
-			name = IMC;
+			name = CursoIOS;
 			packageProductDependencies = (
 			);
 			productName = IMC;
-			productReference = B2794E472C9CD16300FBDE8E /* IMC.app */;
+			productReference = B2794E472C9CD16300FBDE8E /* CursoIOS.app */;
 			productType = "com.apple.product-type.application";
 		};
-		B2794E562C9CD16700FBDE8E /* IMCTests */ = {
+		B2794E562C9CD16700FBDE8E /* CursoIOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B2794E6E2C9CD16800FBDE8E /* Build configuration list for PBXNativeTarget "IMCTests" */;
+			buildConfigurationList = B2794E6E2C9CD16800FBDE8E /* Build configuration list for PBXNativeTarget "CursoIOSTests" */;
 			buildPhases = (
 				B2794E532C9CD16700FBDE8E /* Sources */,
 				B2794E542C9CD16700FBDE8E /* Frameworks */,
@@ -133,16 +133,16 @@
 			fileSystemSynchronizedGroups = (
 				B2794E5A2C9CD16700FBDE8E /* IMCTests */,
 			);
-			name = IMCTests;
+			name = CursoIOSTests;
 			packageProductDependencies = (
 			);
 			productName = IMCTests;
-			productReference = B2794E572C9CD16700FBDE8E /* IMCTests.xctest */;
+			productReference = B2794E572C9CD16700FBDE8E /* CursoIOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		B2794E602C9CD16700FBDE8E /* IMCUITests */ = {
+		B2794E602C9CD16700FBDE8E /* CursoIOSUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B2794E712C9CD16800FBDE8E /* Build configuration list for PBXNativeTarget "IMCUITests" */;
+			buildConfigurationList = B2794E712C9CD16800FBDE8E /* Build configuration list for PBXNativeTarget "CursoIOSUITests" */;
 			buildPhases = (
 				B2794E5D2C9CD16700FBDE8E /* Sources */,
 				B2794E5E2C9CD16700FBDE8E /* Frameworks */,
@@ -156,11 +156,11 @@
 			fileSystemSynchronizedGroups = (
 				B2794E642C9CD16800FBDE8E /* IMCUITests */,
 			);
-			name = IMCUITests;
+			name = CursoIOSUITests;
 			packageProductDependencies = (
 			);
 			productName = IMCUITests;
-			productReference = B2794E612C9CD16800FBDE8E /* IMCUITests.xctest */;
+			productReference = B2794E612C9CD16800FBDE8E /* CursoIOSUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -186,7 +186,7 @@
 					};
 				};
 			};
-			buildConfigurationList = B2794E422C9CD16300FBDE8E /* Build configuration list for PBXProject "IMC" */;
+			buildConfigurationList = B2794E422C9CD16300FBDE8E /* Build configuration list for PBXProject "CursoIOS" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -200,9 +200,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B2794E462C9CD16300FBDE8E /* IMC */,
-				B2794E562C9CD16700FBDE8E /* IMCTests */,
-				B2794E602C9CD16700FBDE8E /* IMCUITests */,
+				B2794E462C9CD16300FBDE8E /* CursoIOS */,
+				B2794E562C9CD16700FBDE8E /* CursoIOSTests */,
+				B2794E602C9CD16700FBDE8E /* CursoIOSUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -258,12 +258,12 @@
 /* Begin PBXTargetDependency section */
 		B2794E592C9CD16700FBDE8E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B2794E462C9CD16300FBDE8E /* IMC */;
+			target = B2794E462C9CD16300FBDE8E /* CursoIOS */;
 			targetProxy = B2794E582C9CD16700FBDE8E /* PBXContainerItemProxy */;
 		};
 		B2794E632C9CD16800FBDE8E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B2794E462C9CD16300FBDE8E /* IMC */;
+			target = B2794E462C9CD16300FBDE8E /* CursoIOS */;
 			targetProxy = B2794E622C9CD16800FBDE8E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -458,7 +458,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IMC.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/IMC";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CursoIOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CursoIOS";
 			};
 			name = Debug;
 		};
@@ -476,7 +476,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IMC.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/IMC";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CursoIOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CursoIOS";
 			};
 			name = Release;
 		};
@@ -515,7 +515,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B2794E422C9CD16300FBDE8E /* Build configuration list for PBXProject "IMC" */ = {
+		B2794E422C9CD16300FBDE8E /* Build configuration list for PBXProject "CursoIOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B2794E692C9CD16800FBDE8E /* Debug */,
@@ -524,7 +524,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B2794E6B2C9CD16800FBDE8E /* Build configuration list for PBXNativeTarget "IMC" */ = {
+		B2794E6B2C9CD16800FBDE8E /* Build configuration list for PBXNativeTarget "CursoIOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B2794E6C2C9CD16800FBDE8E /* Debug */,
@@ -533,7 +533,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B2794E6E2C9CD16800FBDE8E /* Build configuration list for PBXNativeTarget "IMCTests" */ = {
+		B2794E6E2C9CD16800FBDE8E /* Build configuration list for PBXNativeTarget "CursoIOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B2794E6F2C9CD16800FBDE8E /* Debug */,
@@ -542,7 +542,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B2794E712C9CD16800FBDE8E /* Build configuration list for PBXNativeTarget "IMCUITests" */ = {
+		B2794E712C9CD16800FBDE8E /* Build configuration list for PBXNativeTarget "CursoIOSUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B2794E722C9CD16800FBDE8E /* Debug */,
